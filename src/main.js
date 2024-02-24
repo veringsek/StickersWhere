@@ -4,6 +4,8 @@ const path = require('path');
 const CONFIG_PATH = '~/.config/stickerswhere/config';
 const CONFIG_ENCODING = 'utf8';
 const CONFIG_TEMPLATE = {
+    app: 'StickersWhere',
+    version: '0.0.0',
     token: null
 };
 

@@ -2,7 +2,7 @@ const fs = require('fs').promises;
 const path = require('path');
 const express = require('express');
 
-const CONFIG_PATH = '~/.config/stickerswhere/config';
+const CONFIG_PATH = path.join(require('os').homedir(), '.config/stickerswhere/config');
 const CONFIG_ENCODING = 'utf8';
 const CONFIG_TEMPLATE = {
     app: 'StickersWhere',
